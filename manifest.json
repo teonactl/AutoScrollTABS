@@ -1,0 +1,22 @@
+{
+
+  "description": "Adds a browser action icon to the toolbar. Click the button to autoscroll the page based on your microphone input level on the active tab",
+  "manifest_version": 2,
+  "name": "AutoScrollTabs",
+  "version": "1.0",
+  "homepage_url": "https://github.com/mdn/webextensions-examples/tree/master/beastify",
+  "icons": {
+    "32": "icons/autoscroll-32.png"
+  },
+
+  "permissions": [
+    "activeTab"
+  ],
+
+  "browser_action": {
+    "default_icon": "icons/autoscroll-32.png",
+    "default_title": "AutoScrollTabs",
+    "default_popup": "popup/menu.html"
+  }
+
+}
